@@ -6,17 +6,17 @@ PointArt 内部 Windows 实用工具归档库。当前收录序列与视频处�
 
 ## 工具列表
 
-| 工具 | 用途 | 文件版本 | 大小 |
-| --- | --- | --- | ---: |
-| `序列视频多任务编辑大师_v3.exe` | 序列与视频多任务编辑 | 文件名标识 v3 | 89.79 MB |
-| `PDF合并大师.exe` | PDF 与图片合并 | 1.0.0 | 65.59 MB |
-| `文件夹映射大师.exe` | 文件夹映射管理 | 未提供 | 43.31 MB |
-| `文件拷贝大师1.0.exe` | 文件拷贝任务 | 文件名标识 1.0 | 10.45 MB |
-| `序列检查大师.exe` | 序列文件检查 | 未提供 | 7.66 MB |
+| 原文件 | Release 附件 | 用途 | 文件版本 | 大小 |
+| --- | --- | --- | --- | ---: |
+| `序列视频多任务编辑大师_v3.exe` | `sequence-video-multitask-editor-v3.exe` | 序列与视频多任务编辑 | 文件名标识 v3 | 89.79 MB |
+| `PDF合并大师.exe` | `pdf-merge-master.exe` | PDF 与图片合并 | 1.0.0 | 65.59 MB |
+| `文件夹映射大师.exe` | `folder-mapping-master.exe` | 文件夹映射管理 | 未提供 | 43.31 MB |
+| `文件拷贝大师1.0.exe` | `file-copy-master-1.0.exe` | 文件拷贝任务 | 文件名标识 1.0 | 10.45 MB |
+| `序列检查大师.exe` | `sequence-check-master.exe` | 序列文件检查 | 未提供 | 7.66 MB |
 
 ## 下载
 
-前往 [Releases](https://github.com/anli1231381-del/PointArt-System-Tools/releases) 打开最新发布记录，可按需单独下载每个 EXE。
+前往 [Releases](https://github.com/anli1231381-del/PointArt-System-Tools/releases) 打开最新发布记录，可按需单独下载每个 EXE。GitHub 会简化中文附件名，因此 Release 使用上表中的英文文件名；文件内容与对应原文件一致。
 
 当前归档版本：`2026.08.25`。
 
@@ -60,5 +60,4 @@ Get-FileHash -Algorithm SHA256 '.\PDF合并大师.exe'
 - Git 仓库只保存 README 和发布说明，不直接提交二进制文件。
 - EXE 作为 Release 附件保存，避免二进制文件进入 Git 历史。
 - 更新任一工具时应重新计算 SHA-256，并在新 Release 中记录变更。
-
 
